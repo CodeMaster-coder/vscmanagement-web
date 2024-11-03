@@ -57,6 +57,9 @@
 
             </el-form>
         </div>
+        <div class="footer">  
+    <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" class="footer-link">豫ICP备2021027513号</a>  
+   </div>  
     </div>
 </template>
 
@@ -358,4 +361,21 @@ export default {
     right: 10px;
     /* 根据需要调整 */
 }
+.footer {  
+    text-align: center;  
+    padding: 20px 0;  
+    background-color: #f5f5f5; /* 灰色背景 */  
+    position: fixed; /* 固定底部 */  
+    width: 100%;  
+    bottom: 0;  
+  }  
+    
+  .footer-link {  
+    color: #333; /* 链接文字颜色 */  
+    text-decoration: none; /* 去掉下划线 */  
+  }  
+    
+  .footer-link:hover {  
+    text-decoration: underline; /* 鼠标悬停时显示下划线 */  
+  }  
 </style>

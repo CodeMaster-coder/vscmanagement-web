@@ -334,6 +334,7 @@ export default {
                             that.inboundMaterialList = []
                         } else {
                             that.$message.error(res.data.msg)
+                            console.log(res.data.msg)
                         }
                     })
                     .catch(function (err) {
